@@ -1,3 +1,5 @@
+git pull
+
 date
 
 date > date_lee.txt
