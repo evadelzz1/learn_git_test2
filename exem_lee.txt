@@ -1,0 +1,12 @@
+date
+
+date > date_lee.txt
+#date > date_ch.txt
+#date > date_kim.txt
+
+git add *
+
+git commit -m "add file"
+
+git push origin main
+
