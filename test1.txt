@@ -1,0 +1,29 @@
+#####################################
+# Repository Clone (download)
+#####################################
+
+git clone https://github.com/evadelzz1/learn_git_test2.git
+
+cd learn_git_test2
+
+
+#####################################
+# 오늘의 날짜가 들어간 파일 생성
+#####################################
+
+date
+
+date > date_choi.txt
+
+date "+%Y/%m/%d %H:%M:%S" > date_choi2.txt
+
+
+#####################################
+# git save
+#####################################
+
+git add *                        # 변경사항 등록
+
+git commit -m "add new file"     # 주석등록 + 변경사항 최종확인
+
+git push origin main             # 원격(remote) 저장소에 변경사항 등록
