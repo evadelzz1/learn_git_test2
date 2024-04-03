@@ -6,7 +6,7 @@ date > date_lee.txt
 #date > date_ch.txt
 #date > date_kim.txt
 
-git add *
+git add .
 
 git commit -m "add file"
 
